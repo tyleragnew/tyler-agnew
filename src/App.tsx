@@ -27,7 +27,7 @@ const App = () => {
       <div style={contactStyle}> 
         <Contact />
       </div>
-      <div style={rowStyle}>
+      <div style={rowStyle} data-testid='header'>
         <Header />
       </div>
       <br/>
